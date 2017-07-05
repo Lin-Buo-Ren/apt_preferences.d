@@ -1,0 +1,8 @@
+# Only upgrade libqapt package from unstable dev archive
+Package: *
+Pin: release l=KDE neon - Dev Edition Unstable
+Pin-Priority: 99
+
+Package: libqapt3
+Pin: release l=KDE neon - Dev Edition Unstable
+Pin-Priority: 501
