@@ -1,0 +1,7 @@
+Package: debhelper
+Pin: release a=unstable
+Pin-Priority: 501
+
+Package: dh-*
+Pin: release a=unstable
+Pin-Priority: 501
