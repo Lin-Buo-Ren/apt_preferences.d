@@ -1,0 +1,6 @@
+# FIXME: Currently this rule depends on extremely fragile label field, refer KDE Phabricator Task #6402
+# ⚓ T6402 Current archive configuration(the Release file) is unreliable
+# https://phabricator.kde.org/T6402
+Package: *
+Pin: release l=KDE neon - Dev Edition Unstable
+Pin-Priority: 99
