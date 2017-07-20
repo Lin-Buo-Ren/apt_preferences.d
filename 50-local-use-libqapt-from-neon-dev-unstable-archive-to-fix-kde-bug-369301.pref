@@ -1,8 +1,0 @@
-# Fix [369301 – Muon doesn't find packages after installing a package](https://bugs.kde.org/show_bug.cgi?id=369301) by upgrading  libqapt package from unstable dev archive
-Package: *
-Pin: release l=KDE neon - Dev Edition Unstable
-Pin-Priority: 99
-
-Package: libqapt3
-Pin: release l=KDE neon - Dev Edition Unstable
-Pin-Priority: 501
