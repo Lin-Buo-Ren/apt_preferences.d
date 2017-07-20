@@ -1,0 +1,10 @@
+# In dwww 1.13.1, Apache will return `AH02429: Response header name 'Last modified' contains invalid characters, aborting request, referer: http://localhost/cgi-bin/dwww?search=test&programsubmit=Search&searchtype=m` like error when user attempt to do a query, this fixes in dwww 1.13.3 but the patch isn't ported to Ubuntu 16.04 etc. yet, Pin this package to Debian unstable archive
+# Debian Bug #850885
+# Ubuntu Bug #1702660
+Package: *
+Pin: release a=unstable
+Pin-Priority: 99
+
+Package: dwww
+Pin: release a=unstable
+Pin-Priority: 501
