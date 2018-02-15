@@ -1,0 +1,3 @@
+Package: lintian
+Pin: release a=unstable
+Pin-Priority: 501
